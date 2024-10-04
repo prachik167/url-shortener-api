@@ -35,13 +35,17 @@ Postman
 
 Steps
 Clone the repository: git clone https://github.com/prachik167/url-shortener-api.git
+
 Navigate to the project directory: cd url-shortener-api
+
 Install dependencies: npm install
+
 Set up environment variables:
 Create a .env file in the root of your project and configure the following environment variables:
 MONGO_URI=mongodb://localhost:27017/urlshortener 
 REDIS_URL=redis://localhost:6379
 PORT=3000 
+
 Start the server:npm start
 
 
